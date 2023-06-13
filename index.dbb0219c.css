@@ -1,0 +1,2 @@
+p.hidden{display:none}img{width:1000px;height:auto;display:block}.loader{width:48px;height:48px;box-sizing:border-box;border:3px solid #fff;border-radius:50%;animation:rotation 1s linear infinite;display:inline-block;position:relative}.loader:after{content:"";box-sizing:border-box;width:56px;height:56px;border:3px solid rgba(0,0,0,0);border-bottom-color:#ff3d00;border-radius:50%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}@keyframes rotation{0%{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+/*# sourceMappingURL=index.dbb0219c.css.map */
