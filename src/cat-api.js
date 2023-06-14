@@ -13,19 +13,7 @@ export function fetchBreeds(selectEl) {
       }
       return resp.json();
     })
-      .then(data => {
-        
-      return data.forEach(breed => {
-        let option = document.createElement('option');
-
-        option.value = breed.id;
-        option.textContent = breed.name;
-
-          selectEl.appendChild(option);
-          
-      });
-    })
-    .catch(error => console.log(error));
+      
 }
 
 export function fetchCatByBreed(breedID) {
@@ -35,7 +23,8 @@ export function fetchCatByBreed(breedID) {
       if (!resp.ok) {
         throw new Error(resp.statusText);
       }
-      return resp.json();
+        return resp.json();
+
     })  
 }
 
